@@ -2,14 +2,18 @@
 This is a simple React app that generates a photo based on text input using the OpenAI API.
 
 ## Installation
-1. Clone this repository to your local machine.
-To Clone the repository:
-- `git clone https://github.com/ajee10x/OpenAI-Photo-Generator.git`
-3. Create an account on the OpenAI website and obtain an API key.
+1. First, let's create a new React project using create-react-app by running the following command in your terminal:
+- `npx create-react-app my-app`
+- *This will create a new React project called react-dalle in your current directory.*
+2. Next, let's install the axios library by running the following command in your terminal inside the **my-app** directory:
+- `npm install axios`
+3. Now, let's create a new component called **src/PhotoGenerator.js** that will be responsible for generating photos based on user input.
+4. Create an account on the OpenAI website and obtain an API key.
 https://platform.openai.com/account/api-keys
-4. Replace the placeholder API key in App.js with your own API key.
+5. Finally, let's update our App component to render our PhotoGenerator component by editing **src/App.js** insdie the dictionary.
+6. Replace the placeholder API key in **src/App.js** with your own API key.
 - `const apiKey = 'YOUR_API_KEY_HERE';`
-5. Start the app using: 
+7. Start the app using: 
 - `npm start`
 
 ## Usage
