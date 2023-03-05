@@ -4,7 +4,7 @@ This is a simple React app that generates a photo based on text input using the 
 ## Installation
 1. First, let's create a new React project using create-react-app by running the following command in your terminal:
 - `npx create-react-app my-app`
-- *This will create a new React project called react-dalle in your current directory.*
+- *This will create a new React project called my-app in your current directory.*
 2. Next, let's install the axios library by running the following command in your terminal inside the **my-app** directory:
 - `npm install axios`
 3. Now, let's create a new component called **src/PhotoGenerator.js** that will be responsible for generating photos based on user input.
