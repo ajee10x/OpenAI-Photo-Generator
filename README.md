@@ -33,4 +33,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 
 ## License
-Apache-2.0 license.
+MIT license.
